@@ -7,7 +7,7 @@
     --font-medium: 500;
 }
 
-/*===== Colores =====*/
+/*===== Colors =====*/
 :root {
     --first-color: #5361FF;
     --white-color: #FAFAFF;
@@ -15,7 +15,7 @@
     --text-color: #697477;
 }
 
-/*===== Fuente y tipografia =====*/
+/*===== Font =====*/
 :root {
     --body-font: 'Montserrat', sans-serif;
     --big-font-size: 6.25rem;
@@ -33,7 +33,7 @@
     }
 }
 
-/*===== Margenes =====*/
+/*===== Margins=====*/
 :root {
     --mb-1: .5rem;
     --mb-2: 1rem;
@@ -350,7 +350,11 @@ img {
 }
 
 .portfolio__link-name {
-    color: var(--dark-color);
+    color: var(--white-color);
+    border-radius: 0%;
+    background-color: var(--first-color);
+    padding: 10px;
+    border-radius: 5px;
 }
 
 /* ===== CONTACT =====*/
